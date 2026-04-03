@@ -18,7 +18,7 @@ class BowlingGame:
         if pins < 0 or pins > self.MAX_PINS:
             raise ValueError("Pins must be between 0 and 10")
 
-        # 🚨 Prevent extra rolls after game is complete
+        # Prevent extra rolls after game is complete
         if self._is_game_complete():
             raise ValueError("Cannot roll after game is complete")
 
@@ -100,7 +100,7 @@ class BowlingGame:
                 else:
                     frame_index += 2
 
-        # ✅ Allow only valid bonus rolls (max 2)
+        # Allow only valid bonus rolls (max 2)
         if len(self.rolls) > frame_index + 2:
             raise ValueError("Too many rolls in game")
 
