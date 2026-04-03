@@ -95,7 +95,16 @@ class TestBowlingGame(unittest.TestCase):
         self.game.roll(10)
         with self.assertRaises(ValueError):
             self.game.score()
-
+    
+    def test_too_many_rolls_raises_error(self):
+        """
+        Regression test for bug fix:
+        Original code allowed extra rolls after a complete game without error.
+        Fixed to use frame_index so any extra roll raises ValueError.
+        """
+        self.roll_many(20, 0)  # complete gutter game
+        with self.assertRaises(ValueError):
+            self.game.roll(0)  # this extra roll must raise an error
 
 if __name__ == "__main__":
     unittest.main()
