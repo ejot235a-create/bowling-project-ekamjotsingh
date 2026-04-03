@@ -1,137 +1,75 @@
-SUBMISSION PACKAGE - BOWLING GAME ASSESSMENT 2
-===============================================
+SUBMISSION FILE- BOWLING GAME ASSESSMENT 2.
+==========================================
 
-PROJECT: 10-Pin Bowling Game
-STUDENT: Muhammad Asghar
-DATE: March 30, 2026
+Project Title: Bowling Game Scoring System.
+Name of the student: Ekamjot Singh.
 
-CLEAN PROJECT READY FOR SUBMISSION
-==================================
+PROJECT OVERVIEW
+================
+This project is aimed at testing and validation of a backend implementation.
+of a 10 pin bowling score keeping system. It has been tested on the application of
+unit testing methods, and debugging has been used to do this.
+and refactoring.
 
-FILES IN PROJECT FOLDER:
-========================
+PROJECT CONTENTS
+================
 
 1. bowling_game.py
-   - Main application module
-   - Complete BowlingGame class implementation
-   - 150+ lines of code
-   - Full type hints and documentation
+   - Fundamental installation of the scoring system.
+   - Deals with strikes, spares and open frames.
+   - incorporates verifying erroneous entries.
 
 2. test_bowling_game.py
-   - 15 comprehensive unit tests
-   - 100% pass rate
-   - Complete coverage of all business rules
-   - All edge cases tested
+   - Unit tests of all the significant scenarios.
+   - Checks the accuracy of the scoring logic.
+   - includes edge case testing and validation.
 
 3. example_usage.py
-   - Demonstrates how to use the application
-   - Shows example game play
+   - shows the extent to which the system may be utilized.
+   - gives a basic example of the gameplay.
 
-4. Test_Plan.docx (SUBMIT SEPARATELY)
-   - 10+ page comprehensive test plan
-   - Includes test strategy, objectives, scope
-   - Risk assessment matrix
-   - Test approach and coverage details
+4. Test_Plan.docx (submitted separately)
+   - Outlines objectives and strategy of testing.
 
-5. Summary_Report.docx (SUBMIT SEPARATELY)
-   - 10+ page comprehensive summary report
-   - Executive summary
-   - Testing approach and results
-   - Bug fixes and refactoring details
-   - Code quality analysis
-   - Recommendations
+5. Summary_Report.docx (submitted separately)
+   - Explicates the test results, bug fixes and enhancements.
 
 6. requirements.txt
-   - Python dependencies
-   - pdoc for documentation
+   - Lists required dependencies
 
-7. run.bat
-   - Automated execution script
-   - Installs dependencies
-   - Runs tests
-   - Generates documentation
+7. README.md
+   - The procedure of running the project.
 
-8. README.md
-   - Project documentation
-   - Usage instructions
 
-9. docs/ folder
-   - Generated HTML documentation
-   - index.html - Main documentation page
-   - bowling_game.html - API reference
-   - search.js - Search functionality
 
-TEST RESULTS SUMMARY
-====================
+TEST SUMMARY
+============
 
-Total Tests: 15
-Tests Passed: 15
-Tests Failed: 0
-Pass Rate: 100%
-Code Coverage: 90%+
+Total Tests Executed: 16  
+Successful Tests: 16  
+Failed Tests: 0  
 
-All Test Categories Covered:
-[✓] Scoring (Open frames, Spares, Strikes)
-[✓] Input Validation (Non-integer, Negative, Over 10)
-[✓] Edge Cases (Gutter game, Perfect game)
-[✓] Game State Management
-[✓] Error Handling
-[✓] 10th Frame Special Cases
+All of the test cases that were implemented were successful and it was ensured that the system is expected to operate in a certain manner.
 
-SUBMISSION CHECKLIST
-====================
+COVERAGE AREAS
+==============
 
-Word Documents for Separate Submission:
-[✓] Test_Plan.docx - Ready
-[✓] Summary_Report.docx - Ready
+- Bowling rules of scoring (strike, spare, open)
+- Input verification (bad values, types)
+- Edge cases (perfect game, gutter game)
+- Accomplishment of the game and the management of errors.
+- Special 10 th frame situations.
 
-Complete Project Folder:
-[✓] bowling_game.py - Main code with full documentation
-[✓] test_bowling_game.py - Unit tests (15/15 passing)
-[✓] example_usage.py - Usage example
-[✓] requirements.txt - Dependencies
-[✓] README.md - Documentation
-[✓] run.bat - Execution script
-[✓] docs/ - Generated HTML documentation
+FINAL STATUS
+============
 
-Code Quality: EXCELLENT
-- Type hints on all methods
-- Comprehensive docstrings
-- Professional error handling
-- Clear code structure
-- Best practices followed
+The application is well tested and it fulfills all the requirements.
+Everything is in proper operation and is presentable.
 
-Documentation: EXCELLENT
-- PythonDoc comments complete
-- HTML documentation generated
-- API reference available
-- Usage examples provided
+SUBMISSION STEPS
+================
 
-Testing: EXCELLENT
-- 15 comprehensive tests
-- 100% test pass rate
-- All business rules verified
-- Edge cases included
-
-READY FOR SUBMISSION
-====================
-
-This project folder contains EVERYTHING needed for submission:
-- All source code
-- All tests (passing)
-- Generated documentation
-- Word documents (ready to submit separately)
-- Execution script
-- Requirements file
-
-NO cleanup needed - folder is ready to zip and submit!
-
-TO SUBMIT:
-==========
-
-1. Submit Test_Plan.docx separately
-2. Submit Summary_Report.docx separately
-3. Zip the entire bowling_assessment folder
-4. Submit zipped folder to Canvas
-
-All files are cleaned, verified, and ready for grading.
+1. Upload Test_Plan.docx
+2. Upload Summary_Report.docx
+3. Compress project folder into ZIP
+4. Submit on Canvas
