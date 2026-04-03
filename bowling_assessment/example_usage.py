@@ -1,14 +1,23 @@
 from bowling_game import BowlingGame
 
-game = BowlingGame()
 
-# Example game:
-# Strike, then 3 and 6, then all gutters
-game.roll(10)
-game.roll(3)
-game.roll(6)
+def play_sample_game():
+    game = BowlingGame()
 
-for _ in range(16):
-    game.roll(0)
+    # Simulating a simple game:
+    # First roll is a strike
+    game.roll(10)
 
-print("Final score:", game.score())
+    # Next frame
+    game.roll(3)
+    game.roll(6)
+
+    # Remaining rolls are all gutter balls
+    for _ in range(16):
+        game.roll(0)
+
+    print("Calculated Score:", game.score())
+
+
+if __name__ == "__main__":
+    play_sample_game()
